@@ -16,33 +16,9 @@ const About = () => {
               <span className="text-foreground font-semibold">Full Stack Developer</span> who loves transforming ideas into intelligent and scalable web solutions.
             </p>
             
-            <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+            <p className="text-lg text-muted-foreground leading-relaxed">
               I enjoy exploring how <span className="text-primary">AI</span>, <span className="text-primary">data analytics</span>, and modern web technologies can come together to solve real-world challenges.
             </p>
-
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              My mission is to create digital experiences that merge <span className="text-accent">creativity</span>, <span className="text-accent">logic</span>, and <span className="text-accent">futuristic design</span>.
-            </p>
-
-            {/* Stats */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12">
-              <div className="text-center">
-                <div className="text-3xl font-bold text-primary mb-2">10+</div>
-                <div className="text-sm text-muted-foreground">Projects</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-accent mb-2">5+</div>
-                <div className="text-sm text-muted-foreground">Technologies</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-secondary mb-2">2+</div>
-                <div className="text-sm text-muted-foreground">Years Learning</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-neon-cyan mb-2">∞</div>
-                <div className="text-sm text-muted-foreground">Passion</div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
