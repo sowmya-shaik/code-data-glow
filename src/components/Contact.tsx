@@ -1,4 +1,4 @@
-import { Mail, Linkedin, Github, Twitter } from "lucide-react";
+import { Mail, Linkedin, Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Contact = () => {
@@ -6,26 +6,20 @@ const Contact = () => {
     {
       name: "Email",
       icon: Mail,
-      link: "mailto:sowmya@example.com",
+      link: "mailto:sowmyashaik1@gmail.com",
       color: "neon-blue",
     },
     {
       name: "LinkedIn",
       icon: Linkedin,
-      link: "https://linkedin.com/in/sowmyashaik",
+      link: "https://linkedin.com/in/sowmya-shaik-89178b378",
       color: "neon-cyan",
     },
     {
       name: "GitHub",
       icon: Github,
-      link: "https://github.com/sowmyashaik",
+      link: "https://github.com/sowmya-shaik",
       color: "neon-purple",
-    },
-    {
-      name: "Twitter",
-      icon: Twitter,
-      link: "https://twitter.com/sowmyashaik",
-      color: "primary",
     },
   ];
 
@@ -48,7 +42,7 @@ const Contact = () => {
               Let's build something amazing together!
             </p>
 
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {socialLinks.map((social, index) => (
                 <a
                   key={social.name}
@@ -68,7 +62,7 @@ const Contact = () => {
               <Button
                 size="lg"
                 className="bg-primary text-primary-foreground hover:shadow-glow-primary transition-all"
-                onClick={() => window.open("mailto:sowmya@example.com")}
+                onClick={() => window.open("mailto:sowmyashaik1@gmail.com")}
               >
                 <Mail className="w-5 h-5 mr-2" />
                 Send Me an Email
