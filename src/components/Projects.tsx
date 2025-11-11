@@ -10,6 +10,13 @@ const Projects = () => {
       github: "https://github.com/sowmya-shaik",
       demo: "#",
     },
+    {
+      title: "IBM Cloud Internship Project",
+      description: "Completed a 4-week internship program conducted by Edunet Foundation, focusing on IBM Cloud technologies and cloud computing fundamentals.",
+      tech: ["IBM Cloud", "Cloud Computing", "DevOps"],
+      github: "https://github.com/sowmya-shaik",
+      demo: "#",
+    },
   ];
 
   return (
