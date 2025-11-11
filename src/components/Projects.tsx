@@ -4,31 +4,10 @@ import { Button } from "@/components/ui/button";
 const Projects = () => {
   const projects = [
     {
-      title: "AI Resume Analyzer",
-      description: "NLP-based resume analysis tool using Python for automated candidate screening and skill extraction.",
-      tech: ["Python", "NLP", "Machine Learning"],
-      github: "#",
-      demo: "#",
-    },
-    {
-      title: "Portfolio Website",
-      description: "Modern, futuristic portfolio website with glassmorphism design and smooth animations.",
-      tech: ["React", "TypeScript", "Tailwind CSS"],
-      github: "#",
-      demo: "#",
-    },
-    {
-      title: "Data Visualizer Dashboard",
-      description: "Interactive dashboard for visualizing CSV datasets with dynamic charts and filtering capabilities.",
-      tech: ["JavaScript", "D3.js", "Python"],
-      github: "#",
-      demo: "#",
-    },
-    {
-      title: "Smart Task Manager",
-      description: "AI-powered task management app that prioritizes tasks based on deadlines and importance.",
-      tech: ["React", "Node.js", "MongoDB"],
-      github: "#",
+      title: "Artificial Intelligence and Data Analytics Project",
+      description: "Developed a sustainable data analytics project applying machine learning techniques for predictive insights and visualization, focusing on AI, data analytics, and green skills.",
+      tech: ["Python", "NumPy", "Pandas", "Matplotlib", "Seaborn", "Scikit-learn", "Jupyter Notebook", "MS Excel"],
+      github: "https://github.com/sowmya-shaik",
       demo: "#",
     },
   ];
